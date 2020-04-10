@@ -7,8 +7,7 @@
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-var xhr = new XMLHttpRequest();
+
 function getanswer(question){
     var req ={
         "session_id":14000000,
